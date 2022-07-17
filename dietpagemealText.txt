@@ -1,0 +1,28 @@
+            <table class="table1">
+                <thead>
+                    <span class="mealHeader">Mål x</span>
+                </thead>
+                <tbody>
+                    <!--Row-->
+                    <tr scope="row">
+                        <!--Input group / mainDiv-->
+                        <div class="input-group input-group-sm">
+
+                            <!--Name Div-->
+                            <div class="input-group-prepend">
+                                <!--Name span-->
+                                <span class="input-group-text" id="inputGroup-sizing-sm">Test</span>
+                                <input name="foodname" value="Test" hidden>
+                            </div>
+
+                            <!--Input-->
+                            <input type="text" class="form-control" aria-label="foodinput"
+                                aria-describedby="inputGroup-sizing-sm" name="amount" value="gram">
+
+                            <!--Remove Button-->
+                            <button class="btn btn-danger btn-sm" type="button" id="removefoodgroup">-</button>
+                        </div>
+                    </tr>
+
+                </tbody>
+            </table>
